@@ -1,0 +1,39 @@
+{
+  // config for Python\Django
+  // required: https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+
+  // config for PHP\Laravel
+  // required: https://marketplace.visualstudio.com/items?itemName=open-southeners.laravel-pint
+  // P.S. see pint.json
+  "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint",
+    "editor.formatOnSave": true
+  },
+
+  // config for JS/TS/Vue
+  // required: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+  // required: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+  // P.S. see .prettierrc.json and eslint.config.js
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }, 
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "vue"
+  ]
+}
